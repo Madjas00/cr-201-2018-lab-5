@@ -104,7 +104,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumArray(sumArr) {
-  var array = [];
+  var array = [];;
  
 
 
