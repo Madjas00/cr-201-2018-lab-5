@@ -104,7 +104,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumArray(sumArr) {
-  var array = [];;
+  var a = sumArr [0];
+  var b = sumArr [1];
+  var c = sumArr [2];
+  var totalab = sum(a,b)[0];
+  var total = sum(totalab,c)[0];
+
+  var array = [total];
+  array[1] = (a+ ',' +b+ ',' +c+ ' was passed in as an array of numbers, and ' +total+ ' is their sum.') ;
+    return array;
  
 
 
@@ -129,6 +137,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
+  var a = multArr [0]
+  var b = multArr [1]
+  var c = multArr [2]
 
 }
 
